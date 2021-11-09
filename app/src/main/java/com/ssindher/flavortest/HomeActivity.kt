@@ -16,7 +16,7 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-        val name = "Welcome, " + intent.extras?.getString("name")
+        val name = "Welcome"
         toolbar = findViewById(R.id.toolbar)
         banner = findViewById(R.id.banner)
         rv_courses = findViewById(R.id.rv_courses)

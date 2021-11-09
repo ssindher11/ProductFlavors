@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             if (uname == "4005009009" && pass == "4005009009"){
-                startActivity(Intent(this,HomeActivity::class.java).putExtra("name","Shrey"))
+                startActivity(Intent(this,HomeActivity::class.java))
                 finish()
             }
         }
